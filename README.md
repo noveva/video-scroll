@@ -4,7 +4,9 @@ And here comes the link to a [live demo](http://plugin.nataliasoloveva.com "Boun
 > Because a live demo is worth more than a thousand lines of explanation.
 
 # Overview
-This project was supposed to be a jQuery plugin allowing to control video playback by scroll. Thus, no jQuery link in the head tag - no fun with scrolling video playback.
+This project was supposed to be a jQuery plugin allowing to control video playback by scroll. Thus, there are two consequences: 
+- no jQuery link in the head tag - no fun with scrolling video playback.
+- no converted video in .ogv , .mp4 and .webm  formats (yes, this means three video files, you got that correct) - no fun with scrolling video playback in some browsers.
 
 # Features
 The plugin has three main features:
