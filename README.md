@@ -1,6 +1,7 @@
 Video-scroll experiment
 ============
 And here comes the link to a [live demo](http://plugin.nataliasoloveva.com "Bouncing ball madness")
+
 Because a live demo is worth more than a thousand lines of explanation.
 
 # Overview
