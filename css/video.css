@@ -1,0 +1,100 @@
+/* default settings to prevent default browser styling*/
+body,p {
+	display: block; margin:0; padding: 0; 
+}
+p {
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+}
+
+/* 
+video styling
+*/
+
+/* sets your video as background*/
+.video-background{
+	position: fixed; 
+	top: 0px; 
+	right: 0px; 
+	min-width: 100%; 
+	width: auto; 
+
+	z-index: -1000; 
+	overflow: hidden; 
+}
+
+/* sets your video as you customize it*/
+.video-custom{
+	position: absolute; 
+	top: 0px; 
+	left: 0px; 
+	/* to preserve scale define only the height parameter*/
+	height: 550px; 
+	z-index: -1000; 
+	overflow: hidden; 
+}
+
+/* 
+scroll elements styling
+*/
+
+/* outer element that contains the scrollbar */
+.outerElement {
+	width:100%; 
+	position:absolute;
+	top:0;
+	float:right;
+	/* ! NB! do not change this parameter, it will break the plugin*/
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.innerElement {
+	width:20%;
+	position:relative;
+	float:right; 
+}
+
+/* 
+info to be displayed
+*/
+.firstEvent, .message {
+	padding: 2%;
+	width:20%;
+	background-color: rgba(4,5,4,0.5);
+	border-bottom-right-radius:2em;
+	border-bottom-left-radius:2em;
+}
+
+.firstEvent p {
+	font-size:1em;
+}
+
+.firstEvent h1 {
+	margin:0 0 1% 0;
+}
+
+
+.message{position:absolute;z-index:1000;margin:0 35%; text-align: center;}
+
+#info1, #info2 {	
+	position:absolute;
+	border-radius: 0%;
+	background: white;
+	border:2px solid black;
+	padding: 2%;
+	width:20%;
+	text-align: center;
+	right:40%;
+	top: 60%%;
+	margin:0;
+	overflow:hidden;
+}
+
+/* 
+progress bar styling
+*/
+#progress{
+	background-color: red;
+	height: 3px;
+}
+
