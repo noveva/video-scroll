@@ -1,8 +1,7 @@
 Video-scroll experiment
 ============
 And here comes the link to a [live demo](http://plugin.nataliasoloveva.com "Bouncing ball madness")
-
-Because a live demo is worth more than a thousand lines of explanation.
+> Because a live demo is worth more than a thousand lines of explanation.
 
 # Overview
 This project was supposed to be a jQuery plugin allowing to control video playback by scroll. Thus, no jQuery link in the head tag - no fun with scrolling video playback.
